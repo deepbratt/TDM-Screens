@@ -1,0 +1,38 @@
+{
+  "name": "@TDM/Screens",
+  "version": "1.0.1",
+  "description": "Home page for react native expo",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themagnit/TDM-Screens.git"
+  },
+  "keywords": [
+    "ios",
+    "android"
+  ],
+  "author": "Fiza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themagnit/TDM-Screens/issues"
+  },
+  "homepage": "https://github.com/themagnit/TDM-Screens#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.13",
+    "@types/react-native": "^0.64.10",
+    "react-native-unimodules": "^0.14.3",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
