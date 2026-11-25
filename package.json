@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Home page for react native expo",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "prepare": "npm run build"
   },
   "main": "dist/index.js",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@types/react": "^17.0.13",
     "@types/react-native": "^0.64.10",
-    "react-native-unimodules": "^0.14.3",
+    "react-native-unimodules": "^0.15.0",
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
